@@ -37,7 +37,7 @@ const App = () => {
           <Sidebar addAuthorHandler={addAuthor} />
         </div>
         <div className="content col-10">
-          <AuthorsList authors={authors} />
+          <AuthorsList />
         </div>
       </div>
     </div>
